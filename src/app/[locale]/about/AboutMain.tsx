@@ -40,7 +40,7 @@ const AboutMain = () => {
   return (
     <Fragment>
       {t.t && (
-        <div className=" my-12 max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
+        <div className="mt-24 my-12 max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
           <div className="grid lg:grid-cols-3 gap-y-8 lg:gap-y-0 lg:gap-x-6">
             {/* Content */}
             <div className="lg:col-span-2">

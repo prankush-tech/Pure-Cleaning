@@ -42,7 +42,7 @@ const ContactHero = () => {
 
   return (
     <Fragment>
-      {t.t && ( <div className="mt-6 max-w-7xl px-4  lg:px-8 py-12 lg:py-24 mx-auto">
+      {t.t && ( <div className=" mt-24  max-w-7xl px-4  lg:px-8 py-12 lg:py-24 mx-auto">
         <div className={`mb-6 sm:mb-10 max-w-2xl ${direction} mx-auto`}>
           <h2 className={`font-extrabold text-black text-2xl sm:text-4xl `}>
             {t.t("header")}

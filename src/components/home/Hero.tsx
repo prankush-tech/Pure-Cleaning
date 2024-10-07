@@ -41,7 +41,7 @@ const Hero = () =>
   return (
     <Fragment>
       {t.t && (
-        <div className="max-w-[85rem] mt-16 md:mt-28 mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[85rem] mt-24 md:mt-28 mx-auto px-4 sm:px-6 lg:px-8 ">
           {/* Grid */}
           <div className="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
             <div className="lg:col-span-3">

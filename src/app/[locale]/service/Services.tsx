@@ -71,7 +71,7 @@ export default function ProductPage() {
   return (
     <Fragment>
       {t.t && (
-        <div className="container mx-auto md:px-12 px-4 py-8 mt-12 mb-24">
+        <div className="container mx-auto md:px-12 px-4 py-8 mt-24 mb-24">
           <h1 className="md:text-4xl text-2xl text-center font-bold mb-8">
             {t.t("header")}
           </h1>

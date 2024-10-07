@@ -36,12 +36,12 @@ export default function LanguageChanger() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" className="w-9 px-0 ">
+        <Button variant="ghost" size="icon" className="w-9 px-0">
           <Globe className="h-[1.2rem] w-[1.2rem] mt-3" />
           <span className="sr-only">Toggle language</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className='mt-4' align="end">
+      <DropdownMenuContent className='mt-12' align="end">
         <DropdownMenuItem onClick={() => toggleLanguage('en')}>
           <span className={`font-semibold ${language === 'en' ? 'text-primary' : ''}`}>EN</span>
         </DropdownMenuItem>
