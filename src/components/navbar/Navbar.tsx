@@ -49,7 +49,7 @@ const Navbar = () => {
       {t.t && ( // Ensure t.t is defined before using it
         <nav className="navbar">
           <h1 className="purelyClean">
-            <img src="/logo.jpg" className="max-w-36 p-2" />
+            <img src="/logo.jpg" className="max-w-64 p-2" />
           </h1>
           <div className="munuBarContainer">
             <LanguageChanger/>
