@@ -31,11 +31,22 @@ export default function WhatsAppButtons() {
       <Button
         variant="secondary"
         size="default"
-        className="fixed z-10 hover:bg-transparent  bg-transparent md:right-6 right-2 md:bottom-16 bottom-8 rounded-full"
+        className="fixed z-10 hover:bg-transparent  bg-transparent left-2 md:bottom-32  bottom-24 rounded-full "
         onClick={handleCall}
         aria-label="Call"
       >
+
     <img src="/Phone.png" className="md:w-14 w-12 hover:drop-shadow-md drop-shadow-md rounded-full"/>
+      </Button>
+
+      <Button
+        variant="secondary"
+        size="default"
+        className="fixed z-10 hover:bg-transparent  bg-transparent left-2 md:bottom-48  bottom-[10rem] rounded-full "
+        onClick={()=>{window.open("https://www.instagram.com/purely.services")}}
+        aria-label="Socials"
+      >
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/022/257/067/small/icon-media-social-instagram-free-vector.jpg" className="md:w-14 w-12 hover:drop-shadow-md drop-shadow-md rounded-full"/>
       </Button>
     </>
   );
