@@ -26,6 +26,7 @@ export default function WhatsAppButtons() {
       >
         {/* <MessageCircle className="md:h-24  md:w-24 " /> */}
         <img src="/whatsApp.png" className="md:w-14 w-12 hover:drop-shadow-md drop-shadow-md rounded-full"/>
+        
       </Button>
 
       <Button
